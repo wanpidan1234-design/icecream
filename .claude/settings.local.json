@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(pytest:*)",
+      "Bash(git:*)",
+      "Bash(gh pr:*)",
+      "Bash(where gh:*)",
+      "Bash(cmd.exe:*)",
+      "Read(//c/Program Files/GitHub CLI//**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" pr:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth:*)"
+    ]
+  }
+}
